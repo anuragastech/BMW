@@ -1,0 +1,1014 @@
+body{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    box-sizing: border-box;
+  
+}
+
+
+
+.navbar{
+ width: 100%;
+ background-color: aqua;
+ position: relative;
+ 
+ 
+
+
+
+}
+
+.navsub{
+    display: flex;
+    flex-direction: row;
+position: absolute;
+    top: 0;
+    font-size: 50px;
+    list-style: none;
+    color: white; 
+    z-index: 2; 
+    left: 260px;
+    margin-top: 15;
+   
+  
+    
+     
+    }
+     .smalltext{
+        font-size:12px;
+        position: absolute;
+        color: white;
+        justify-content: center; 
+        width: 100%;
+        top: 8px;
+        left: 550px;
+
+        
+   
+    /* padding-left: 545px; */
+
+    }
+    .smalltext2{
+        font-size: 10px;
+        position: absolute;
+        color: white;
+    
+        top: 30px;
+        font-weight: bold;
+
+    }
+    .bmwimg5{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 665px;
+        font-weight: bold;
+    }
+    .line1000{
+        width: 600px;
+        position: absolute;
+        align-items: center;
+    }
+    .pic{
+        width: 100%;
+        height: 585px;
+        overflow: hidden;
+    }
+    .home li:hover{
+        color: #1c69d4;
+        
+    }
+    .navsub li{
+        padding: 5px;
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        
+    }
+/* .texthead{
+    width: 610px;
+    height: 2px;
+    position: absolute;
+    top: 62px;
+    left: 290px;
+    color: black; */
+ 
+/* } */
+.buttonmain{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    background-color:transparent;
+    position: absolute;
+    top: 75px;
+    left: 2px;
+    
+
+}
+.buttonmain:hover{
+    background-color: white;
+    color: #262626;
+    border: 1px solid red;
+}
+
+.car{
+    position: relative;
+
+    width: 100%;
+    height: 585px;
+    overflow: hidden;
+
+    
+
+}
+/* .cartext{
+    color: rgb(163, 22, 22);
+    position: absolute;
+    left: 0;
+    top: 0; */
+/* } */
+
+.text{   
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    left: 80px;
+
+    top: 175px;
+    color: white;
+
+     
+    
+}
+.text1{
+    font-size: 50px;
+    font-family: sans-serif;
+  
+    font-weight: lighter;
+   
+    position: absolute;
+    left: 60px;
+    top: 192px;
+    color: white;
+    
+
+
+    
+
+    
+}
+.text2{
+    font-size: 50px;
+    font-weight: lighter;
+    position: absolute;
+    top:245px;
+    left: 60px;
+    font-family: sans-serif;
+    color: white;
+   
+    
+}
+.vedios{
+   position: relative;
+
+    display: inline;
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    /* margin-bottom:  */
+    
+    
+    
+    
+
+}
+.vedio1{
+    width: 100%;
+    
+
+flex: 1;
+
+
+    
+}
+.vedio2{
+flex: 1;
+
+
+
+}
+.maintexthead{
+    
+
+
+}
+.text50{
+    position: absolute;
+    font-size: 23px;
+    top: 963px;
+    left: 60px;
+    color: white;
+    font-weight: lighter;
+
+}
+.text60{
+    position: absolute;
+    top: 995px;
+    font-size: 40px;
+    color: white;
+    left: 65px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+
+}
+.text70{
+    position: absolute;
+font-size: 40px;
+top: 1040px;
+left: 60px;
+color: white;
+font-weight: lighter;
+}
+.button{
+    background-color: transparent;
+    color:white;
+    font-size: 16px;
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 1138px;
+    left: 65px;
+    border: 2px solid white;
+    
+}
+.button:hover{
+background-color: white;
+color: black;
+border: 2px solid white;
+
+}
+.button1{
+    background-color: transparent;
+    
+    color:white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 1132px;
+    right: 415px;
+    border: 2px solid white;
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+
+}
+.head11{font-size: 25px;
+    position: absolute;
+    top:965px;
+    right: 500px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter
+
+}
+.head12{position: absolute;
+    top: 990px;
+    right:70px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+font-weight: lighter;
+}
+.head13{position: absolute;
+    top: 1030px;
+    right: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+
+
+}
+.head14{position: absolute;
+    top: 1030px;
+    right: 70px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+    color: white;
+    
+
+}
+/* .car{ 
+     width: 300px;
+    height: 300px;  */
+
+/* } */
+.car img{
+    width: 100%;
+    height: 585px;
+    overflow: hidden;
+    transition: 5.5s;
+}
+.car img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    /* z-index: 0; */
+} 
+
+.mainvedio1{
+    position: relative;
+    width: 100%;
+    height: 335px;
+}
+.vediofile{
+    position: absolute;
+    left: 200px;
+    top: -10px;
+
+
+
+}
+.learnhead{
+    position: absolute;
+    left: 760px;
+    font-weight: lighter;
+    top:85px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #262626;
+
+}
+.bmwhere{
+    position: absolute;
+    left: 760px;
+    top: 140px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #262626;
+    
+}
+.bmwexplained{position: absolute;
+    left: 950px;
+    width: 346px;
+    height: 50px;
+    background-color:white;
+    
+    
+    color: #262626;
+    font-size: 16px;
+    font-weight: bold;
+    left: 760px;
+    top: 225px;
+}
+.blackbackground{
+    height: 560px;
+    width: 100%;
+    background-color: #262626;
+    position: relative;
+
+
+}
+.button5{ background-color: transparent;
+    color:#262626;
+    font-size: 16px;
+    background-color: aliceblue;
+
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 180px;
+    position: absolute;
+    left: 65px;
+    top: 445px;
+    border: 2px solid #262626;
+    
+    
+    
+}
+.button5:hover{
+    background-color:#262626;
+    color: white;
+    border: 2px solid #262626;
+
+
+    
+    }
+.paragraph{ 
+    font-size :18px ;
+    font-weight: lighter;
+    position: absolute;
+    color: white;
+    left: 65px;
+    top: 235px;
+
+
+}
+.mainhead5{
+    position: absolute;
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    
+    
+    min-width: 50px;
+    color: white;
+    left:65px;
+    top: 18px;
+
+}
+
+.vediogroup{
+    display: flex;
+    flex-direction: row;
+    height: 360px;
+    width: 270px;
+    list-style: none;
+    padding-left: 425px;
+    padding-top: 40px;
+
+}
+.maintexthead{
+    position: relative;
+    height:220px;
+    width: 100%;
+    background-color: white;
+
+}
+.text5{font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #262626;
+    position: absolute;
+    left: 516px;
+    top: 20px;
+
+}
+.text6{
+    font-size: 62px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #262626;
+    position: absolute;
+    left: 365px;
+    top: 40px;
+    
+
+    
+    
+
+
+}
+.text7{font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #262626;
+    position: absolute;
+    left: 555px;
+    top: 130px;
+    
+
+}
+.mainheadofvideos{
+    /* position: relative; */
+    /* height: 720px; */
+    /* width: 600px;  */
+    /* justify-content: center;
+    align-items: center;*/
+    display: grid; 
+
+  
+    grid-template-columns: repeat(3,420px);
+    grid-template-rows:  236px 236px 236px;
+    justify-items: start;
+    align-items: end;
+    /* row-gap: 1px; */
+    /* column-gap: 1px; */
+    grid-gap: 2px;
+    
+    
+    
+    
+}
+.bmw1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+/* 
+.maingrid{
+    display: grid;
+    grid-template-columns: repeat(5,420px);
+    grid-template-rows: 237px 237px 237px ;
+    justify-items: start;
+    align-items: end;
+} */
+.grid2main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:237px 237px ;
+    justify-items: start;
+    align-items: end;
+    grid-gap: 2px;
+
+}
+.bmw8{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:3;
+    
+}
+.bmw10main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 237px 237px 237px;
+    justify-items: start;
+    align-items: end;
+    grid-gap: 2px;
+
+}
+.bmw13{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:4;
+}
+.grid16main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 237px 237px 237px;
+    justify-items: start;
+    align-items: end;
+    grid-gap: 2px;
+}
+.bmw20{grid-column-start:2 ;
+    grid-column-end: 4;
+
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    
+
+}
+.grid21main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 237px ;
+    justify-items: start;
+    align-items: end;
+    grid-gap: 2px;
+
+}
+
+
+.space{ /*position: relative; */
+    width: 100%;
+    background-color: white;
+    height: 50px;
+}
+.button6{ background-color: transparent;
+    color:#262626;
+    font-size: 16px;
+
+
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 341px;
+  
+    border: 2px solid #262626;
+    
+margin-left: 465px;
+margin-bottom: 50px;
+
+
+
+    
+    
+    
+
+}
+.button6:hover{
+   
+    background-color:#262626;
+    color: white;
+    border: 2px solid white;
+    width: 341px;
+    
+    
+
+}
+
+/* .bmw1,.bmw2,.bmw3,.bmw4,.bmw5,.bmw6,.bmw7,.bmw8,.bmw9,.bmw10,.bmw11,.bmw12,.bmw13,.bmw14,.bmw15,.bmw16,.bmw17,.bmw18,.bmw19,.bmw20,.bmw21,.bmw22,.bmw23,.bmw24{
+    overflow: hidden;
+}
+.bmw1 img,.bmw2 img ,.bmw3 img,.bmw4 img,.bmw5 img,.bmw6 img,.bmw7 img,.bmw8 img,.bmw9 img,.bmw10 img,.bmw11 img,.bmw12 img,.bmw13 img,.bmw14 img,.bmw15 img,.bmw16 img,.bmw17 img,.bmw18 img,.bmw19 img,.bmw20 img,.bmw21 img,.bmw22 img,.bmw23 img,.bmw24 img{
+ width: 100%;
+ transition:transform 5.5s;
+
+}
+.bmw1 img :hover,.bmw2 img :hover,.bmw3 img :hover,.bmw4 img :hover,.bmw5 img :hover,.bmw6 img :hover,.bmw7 img,.bmw8 img :hover,.bmw9 img :hover,.bmw10 img :hover,.bmw11 img :hover,.bmw12 img :hover,.bmw13 img :hover,.bmw14 img :hover,.bmw15 img :hover,.bmw16 img :hover,.bmw17 img :hover,.bmw18 img :hover,.bmw19 img :hover,.bmw20 img :hover,.bmw21 img :hover,.bmw22 img :hover,.bmw23 img :hover,.bmw24 img :hover{
+
+transform: scale(1.1);
+cursor: pointer; */
+
+/* } */
+.bmw1{overflow: hidden;
+
+}
+.bmw1 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw1 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw2{overflow: hidden;
+
+}
+.bmw2 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw2 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw3{overflow: hidden;
+
+}
+.bmw3 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw3 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw4{overflow: hidden;
+
+}
+.bmw4 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw4 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw5{overflow: hidden;
+
+}
+.bmw5 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw5 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw6{overflow: hidden;
+
+}
+.bmw6 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw6 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw7{overflow: hidden;
+
+}
+.bmw7 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw7 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw8{overflow: hidden;
+
+}
+.bmw8 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw8 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw9{overflow: hidden;
+
+}
+.bmw9 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw9 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.bmw10{overflow: hidden;
+
+}
+.bmw10 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw10 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}  
+.bmw11{overflow: hidden;
+
+}
+.bmw11 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw11 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.bmw12{overflow: hidden;
+
+}
+.bmw12 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw12 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw13{overflow: hidden;
+
+}
+.bmw13 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw13 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bmw14{overflow: hidden;
+
+}
+.bmw14 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw14 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw15{overflow: hidden;
+
+}
+.bmw15 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw15 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.bmw16{overflow: hidden;
+
+}
+.bmw16 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw16 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw17{overflow: hidden;
+
+}
+.bmw17 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw17 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw18{overflow: hidden;
+
+}
+.bmw18 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw18 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw19{overflow: hidden;
+
+}
+.bmw19 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw19 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw20{overflow: hidden;
+
+}
+.bmw20 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw20 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw21{overflow: hidden;
+
+}
+.bmw21 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw21 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw22{overflow: hidden;
+
+}
+.bmw22 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw22 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw23{overflow: hidden;
+
+}
+.bmw23 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw23 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.bmw24{overflow: hidden;
+
+}
+.bmw24 img{
+    width: 100%;
+    transition:transform 5.5s;
+}
+.bmw24 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.language english li{
+    color: white;
+}
+
+.language{
+    position: absolute;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    color: #8e8e8e;
+    top: 55px;
+    left: 160px;
+    list-style: none;
+
+    
+}
+.language li{
+    padding: 5px;
+}
+
+
+.lidiv{
+    font-size: 12px;
+    font-family: sans-serif;
+color: #8e8e8e;
+position: absolute;
+left: 196px;
+top: 145px;
+list-style: none;
+
+}
+.lidiv li{
+    padding: 7px;
+}
+
+.lidiv2{font-size: 12px;
+    font-family: sans-serif;
+    color:#8e8e8e;
+    position: absolute;
+    left: 410px;
+    top: 150px;
+    list-style: none;
+
+}
+.lidiv2 li{
+    padding: 7px;
+}
+
+.lidiv3{font-size: 12px;
+    font-family: sans-serif;
+    color: #8e8e8e;
+    position: absolute;
+    left: 630px;
+    top: 150px;
+    list-style: none;
+
+}
+.lidiv3 li{padding: 7px;}
+.socialmedia{
+color: #8e8e8e;
+font-size: 12px;
+font-family: sans-serif;
+position: absolute;
+left:860px;
+top:150px;
+position: absolute;
+list-style: none;
+}
+.socialmedia li{
+    padding: 7px;
+}
+
+.here{font-size: 12px;
+    font-family: sans-serif;
+color: #8e8e8e;
+position: absolute;
+left: 200px;
+top: 530px;
+font-weight: bold;
+}
+footer{
+    position: relative;
+    width: 100%;
+
+     height: 900px;
+    background-color: #262626;
+    list-style: non;
+}
+
+.hr1{height: .02px;
+    color:#8e8e8e ;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
